@@ -14,44 +14,14 @@
 .h{
     border: dotted;
 }
-.contentContainer{
+.content{
     display: flex;
-    justify-content: space-between;
-}
-
-.contentArticle{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
-.fishCard{
-    text-align:center;
-    border: outset seagreen;
-    background-color:salmon;
-    flex:1 1 40%;
-}
-.fishCard__img{
-    width: 60%;
-}
-
-.quoteCard{
+.fish{
     border: dotted;
-    text-align: center;
-    background-color:blanchedalmond;
-}
-.quoteCard__text{
-    font-size: 50px;
-}
-
-.locationCard{
-    border: dotted;
-    text-align: center;
-    background-color: springgreen;
-}
-.containerRight{
-    border: dotted;
-    background-color: sandybrown;
+    flex: 1 1 auto;
 }
 .footer{
     display: flex;
