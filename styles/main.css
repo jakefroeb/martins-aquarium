@@ -21,7 +21,7 @@
 }
 .fish{
     border: dotted;
-    flex: 1 1 auto;
+    flex: 1 1 0;
 }
 .footer{
     display: flex;
@@ -34,3 +34,20 @@
 .socialContainer{
     border: dotted;
 }
+.tipCard{
+    border: dotted;
+    text-align: center;
+}
+.tips{
+    display: flexbox;
+    flex-direction: row;
+}
+.locationCard{
+    border: dotted;
+    text-align: center;
+}
+.locations{
+    display: flexbox;
+    flex-direction: row;
+}
+
