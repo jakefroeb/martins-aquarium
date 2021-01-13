@@ -10,3 +10,14 @@ for (const fish of allTheFish) {
 import { FishList } from './Fish/FishList.js'
 
 FishList();
+
+
+// Tip Imports
+import { TipList } from './Tips/TipList.js'
+
+TipList();
+
+// Location Imports
+
+import { LocationsList } from './Locations/LocationsList.js'
+LocationsList();
