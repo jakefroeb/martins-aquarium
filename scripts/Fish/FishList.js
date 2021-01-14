@@ -3,11 +3,15 @@
  */
 import { useFish } from "./FishDataProvider.js"
 import { Fish } from "./Fish.js"
+import { mostHolyFish } from "./FishDataProvider.js"
+import { soldierFish } from "./FishDataProvider.js"
+import { nonHolyFish } from "./FishDataProvider.js"
+
 
 export const FishList = () => {
 
     const contentElement = document.querySelector(".content")
-    const fishes = useFish()
+    const fishes = useFish();
 
     // Generate all of the HTML for all of the fish
     let fishHTMLRepresentations = ""
